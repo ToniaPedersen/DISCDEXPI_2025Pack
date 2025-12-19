@@ -7,7 +7,7 @@ The repository contents are as follows:
 - **Main**: 
 	- *DISC DEXPI Pilot Transfer Requirements.docx*: Information modelling requirements
 	- *DISC DEXPI Symbol Definition Requirements.docx*: Overview of the DISC DEXPI symbol defintion information modelling Requirements
-	-*FinalReport_DEXPI.docx*: Final report for the DISC DEXPI 2025 Project
+	- *FinalReport_DEXPI.docx*: Final report for the DISC DEXPI 2025 Project
 
 - **Profile**:
 
