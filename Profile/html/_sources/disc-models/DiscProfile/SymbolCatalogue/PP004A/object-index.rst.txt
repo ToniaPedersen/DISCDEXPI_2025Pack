@@ -1,0 +1,5 @@
+PP004A
+======
+
+.. sp:internal-autoelement::
+   :element: DiscProfile.SymbolCatalogue.PP004A

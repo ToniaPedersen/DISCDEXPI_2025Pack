@@ -1,0 +1,5 @@
+STPL008
+=======
+
+.. sp:internal-autoelement::
+   :element: DiscProfile.SymbolCatalogue.STPL008

@@ -1,0 +1,5 @@
+PlantAreaExtension
+==================
+
+.. sp:internal-autoelement::
+   :element: DiscProfile.InformationModel.PlantAreaExtension

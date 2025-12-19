@@ -1,0 +1,5 @@
+PE015A
+======
+
+.. sp:internal-autoelement::
+   :element: DiscProfile.SymbolCatalogue.PE015A

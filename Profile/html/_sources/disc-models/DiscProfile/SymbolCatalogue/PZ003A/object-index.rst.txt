@@ -1,0 +1,5 @@
+PZ003A
+======
+
+.. sp:internal-autoelement::
+   :element: DiscProfile.SymbolCatalogue.PZ003A

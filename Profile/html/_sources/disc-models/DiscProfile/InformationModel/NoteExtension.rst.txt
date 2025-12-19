@@ -1,0 +1,5 @@
+NoteExtension
+=============
+
+.. sp:internal-autoelement::
+   :element: DiscProfile.InformationModel.NoteExtension

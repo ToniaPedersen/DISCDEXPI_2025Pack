@@ -1,0 +1,5 @@
+PT011A
+======
+
+.. sp:internal-autoelement::
+   :element: DiscProfile.SymbolCatalogue.PT011A

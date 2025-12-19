@@ -1,0 +1,5 @@
+PD006A
+======
+
+.. sp:internal-autoelement::
+   :element: DiscProfile.SymbolCatalogue.PD006A

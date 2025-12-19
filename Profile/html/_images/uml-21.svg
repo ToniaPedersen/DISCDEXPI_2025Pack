@@ -1,0 +1,81 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" width="199.5859375px" height="392.4px" viewBox="0.0 0.0 199.5859375 392.4"><ns0:style>
+            .uml-foreground-stroke {
+                stroke: black;
+                stroke-width: 1px;
+            }
+            
+            .uml-foreground-fill {
+                fill: black;
+            }
+            
+            .uml-background_color-type {
+                fill: #ffffcc;
+            }
+            
+            .uml-background_color-main_type {
+                fill: #ffff66;
+            }
+            
+            .uml-background_color-instance {
+                fill: blue;
+            }
+            
+            .uml-background_color-background {
+                fill: white;
+            }
+            
+            .uml-background_color-foreground {
+                fill: black;
+            }
+            
+            .uml-font-normal {
+                font-family: Arial;
+            }
+            
+            .uml-font-element {
+                font-family: Arial;
+            }
+            
+            .uml-fontsize-normal {
+                font-size: 10px;
+            }
+
+            .uml-fontsize-large {
+                font-size: 12px;
+            }
+            
+            .uml-source_marker-closed_arrow {
+                marker-start: url(#uml-marker-closed_arrow);
+            }
+            
+            .uml-source_marker-open_arrow {
+                marker-start: url(#uml-marker-open_arrow);
+            }
+            
+            .uml-source_marker-filled_diamond {
+                marker-start: url(#uml-marker-filled_diamond);
+            }
+
+            .uml-target_marker-closed_arrow {
+                marker-end: url(#uml-marker-closed_arrow);
+            }
+            
+            .uml-target_marker-open_arrow {
+                marker-end: url(#uml-marker-open_arrow);
+            }
+            
+            .uml-target_marker-filled_diamond {
+                marker-end: url(#uml-marker-filled_diamond);
+            }
+
+            </ns0:style><ns0:defs>
+        <ns0:marker id="uml-marker-closed_arrow" viewBox="-2 -2 14 14" refX="10" refY="5.0" markerWidth="14" markerHeight="14" orient="auto-start-reverse">
+          <ns0:path d="M 0 0 L 10 5.0 L 0 10 Z" stroke-linejoin="round" stroke-linecap="round" class="uml-foreground-stroke uml-background_color-background"/>
+        </ns0:marker>
+        <ns0:marker id="uml-marker-open_arrow" viewBox="-2 -2 14 14" refX="10" refY="5.0" markerWidth="14" markerHeight="14" orient="auto-start-reverse">
+          <ns0:path d="M 0 0 L 10 5.0 L 0 10" stroke-linejoin="round" stroke-linecap="round" fill="none" class="uml-foreground-stroke"/>
+        </ns0:marker>
+        <ns0:marker id="uml-marker-filled_diamond" viewBox="-2 -2 14 14" refX="10" refY="5.0" markerWidth="14" markerHeight="14" orient="auto-start-reverse">
+          <ns0:path d="M 0 5.0 L      5.0 2.0        10 5.0      5.0 8.0 Z       " stroke-linejoin="round" stroke-linecap="round" class="uml-foreground-stroke uml-background_color-foreground"/>
+        </ns0:marker>
+      </ns0:defs><ns0:rect class="uml-background_color-type uml-foreground-stroke" x="37.08873046874999" y="12.0" width="125.40847656250001" height="23.799999999999997"/><ns0:text x="99.79296875" text-anchor="middle" font-size="0px" y="27.439999999999998"><ns0:a href="../dexpi-models/Core/Diagram/GraphicalElement.html"><ns0:tspan class="uml-foreground-fill uml-font-element uml-fontsize-large" font-weight="bold" font-style="italic">GraphicalElement</ns0:tspan></ns0:a></ns0:text><ns0:rect class="uml-background_color-type uml-foreground-stroke" x="35.89054687499999" y="108.39999999999999" width="127.80484375000002" height="23.799999999999997"/><ns0:text x="99.79296875" text-anchor="middle" font-size="0px" y="123.83999999999999"><ns0:a href="../dexpi-models/Core/Diagram/GraphicalPrimitive.html"><ns0:tspan class="uml-foreground-fill uml-font-element uml-fontsize-large" font-weight="bold" font-style="italic">GraphicalPrimitive</ns0:tspan></ns0:a></ns0:text><ns0:rect class="uml-background_color-type uml-foreground-stroke" x="37.19531250000001" y="356.6" width="100.0" height="23.799999999999997"/><ns0:text x="87.1953125" text-anchor="middle" font-size="0px" y="372.04"><ns0:a href="../dexpi-models/Core/Diagram/NodePosition.html"><ns0:tspan class="uml-foreground-fill uml-font-element uml-fontsize-large" font-weight="bold" font-style="italic">NodePosition</ns0:tspan></ns0:a></ns0:text><ns0:rect class="uml-background_color-main_type uml-foreground-stroke" x="12.0" y="204.79999999999998" width="175.5859375" height="62.4"/><ns0:text x="99.79296875" text-anchor="middle" font-size="0px" y="220.23999999999998"><ns0:tspan class="uml-foreground-fill uml-font-element uml-fontsize-large" font-weight="bold">ConnectorLine</ns0:tspan></ns0:text><ns0:polyline class="uml-foreground-stroke" points="12.0,228.59999999999997 187.5859375,228.59999999999997" fill="none"/><ns0:text x="17.0" font-size="0px" y="245.03999999999996"><ns0:a href="../dexpi-models/Core/Diagram/ConnectorLine.html#sp:core.diagram.connectorline.innerpoints"><ns0:tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">InnerPoints</ns0:tspan></ns0:a><ns0:tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">&#160;:</ns0:tspan></ns0:text><ns0:text x="86.537109375" font-size="0px" y="245.03999999999996"><ns0:a href="../dexpi-models/Core/Diagram/Point.html"><ns0:tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">Point</ns0:tspan></ns0:a><ns0:tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">&#160;[*]&#160;{ordered}</ns0:tspan></ns0:text><ns0:text x="17.0" font-size="0px" y="258.84"><ns0:a href="../dexpi-models/Core/Diagram/ConnectorLine.html#sp:core.diagram.connectorline.stroke"><ns0:tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">Stroke</ns0:tspan></ns0:a><ns0:tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">&#160;:</ns0:tspan></ns0:text><ns0:text x="86.537109375" font-size="0px" y="258.84"><ns0:a href="../dexpi-models/Core/Diagram/Stroke.html"><ns0:tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">Stroke</ns0:tspan></ns0:a></ns0:text><ns0:polyline class="uml-foreground-stroke uml-source_marker-closed_arrow" points="99.79296875,35.8 99.79296875,71.6 99.79296875,72.6 99.79296875,108.39999999999999" fill="none"/><ns0:polyline class="uml-foreground-stroke uml-source_marker-closed_arrow" points="99.79296875,132.2 99.79296875,168.0 99.79296875,169.0 99.79296875,204.79999999999998" fill="none"/><ns0:rect class="uml-background_color-background " x="109.86946614583334" y="303.0" width="42.021484375" height="17.799999999999997"/><ns0:text x="130.88020833333334" text-anchor="middle" font-size="0px" y="315.44"><ns0:a href="../dexpi-models/Core/Diagram/ConnectorLine.html#sp:core.diagram.connectorline.source"><ns0:tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">Source</ns0:tspan></ns0:a></ns0:text><ns0:polyline class="uml-foreground-stroke" points="129.05729166666669,267.2 129.05729166666669,293.0 130.88020833333334,293.0 130.88020833333334,303.0" fill="none"/><ns0:polyline class="uml-foreground-stroke uml-target_marker-open_arrow" points="130.88020833333334,320.8 130.88020833333334,330.8 103.86197916666666,330.8 103.86197916666666,356.6" fill="none"/><ns0:text x="137.05729166666669" font-size="0px" y="279.4"><ns0:tspan class="uml-foreground-fill uml-font-normal uml-fontsize-normal">0..1</ns0:tspan></ns0:text><ns0:text x="111.86197916666666" font-size="0px" y="351.0"><ns0:tspan class="uml-foreground-fill uml-font-normal uml-fontsize-normal">0..1</ns0:tspan></ns0:text><ns0:rect class="uml-background_color-background " x="51.187825520833336" y="303.0" width="38.681640625" height="17.799999999999997"/><ns0:text x="70.52864583333334" text-anchor="middle" font-size="0px" y="315.44"><ns0:a href="../dexpi-models/Core/Diagram/ConnectorLine.html#sp:core.diagram.connectorline.target"><ns0:tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">Target</ns0:tspan></ns0:a></ns0:text><ns0:polyline class="uml-foreground-stroke" points="70.52864583333334,267.2 70.52864583333334,303.0" fill="none"/><ns0:polyline class="uml-foreground-stroke uml-target_marker-open_arrow" points="70.52864583333334,320.8 70.52864583333334,356.6" fill="none"/><ns0:text x="78.52864583333334" font-size="0px" y="279.4"><ns0:tspan class="uml-foreground-fill uml-font-normal uml-fontsize-normal">0..1</ns0:tspan></ns0:text><ns0:text x="78.52864583333334" font-size="0px" y="351.0"><ns0:tspan class="uml-foreground-fill uml-font-normal uml-fontsize-normal">0..1</ns0:tspan></ns0:text></ns0:svg>

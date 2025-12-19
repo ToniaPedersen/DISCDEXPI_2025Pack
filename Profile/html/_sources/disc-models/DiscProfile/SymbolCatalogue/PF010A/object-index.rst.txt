@@ -1,0 +1,5 @@
+PF010A
+======
+
+.. sp:internal-autoelement::
+   :element: DiscProfile.SymbolCatalogue.PF010A

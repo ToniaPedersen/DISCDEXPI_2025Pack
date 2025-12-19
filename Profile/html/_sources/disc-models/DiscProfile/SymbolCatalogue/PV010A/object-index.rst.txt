@@ -1,0 +1,5 @@
+PV010A
+======
+
+.. sp:internal-autoelement::
+   :element: DiscProfile.SymbolCatalogue.PV010A

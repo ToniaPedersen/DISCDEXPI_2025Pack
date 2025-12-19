@@ -1,0 +1,5 @@
+ProcessPlantExtension
+=====================
+
+.. sp:internal-autoelement::
+   :element: DiscProfile.InformationModel.ProcessPlantExtension

@@ -1,0 +1,5 @@
+PlantMetaDataExtension
+======================
+
+.. sp:internal-autoelement::
+   :element: DiscProfile.InformationModel.PlantMetaDataExtension

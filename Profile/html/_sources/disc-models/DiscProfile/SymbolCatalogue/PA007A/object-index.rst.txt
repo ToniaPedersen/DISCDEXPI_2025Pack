@@ -1,0 +1,5 @@
+PA007A
+======
+
+.. sp:internal-autoelement::
+   :element: DiscProfile.SymbolCatalogue.PA007A

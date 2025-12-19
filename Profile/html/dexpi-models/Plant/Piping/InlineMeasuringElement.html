@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../../">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>InlineMeasuringElement — DISC Profile 0.3</title>
+    <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=b86133f3">
+    <link rel="stylesheet" type="text/css" href="../../../_static/basic_mod.css?v=9b2032db">
+    <link rel="stylesheet" type="text/css" href="../../../_static/sp.css">
+    <script src="../../../_static/documentation_options.js?v=b489f392"></script>
+    <script src="../../../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../_static/js/theme.js"></script>
+    <script src="../../../_static/js/petite-vue.js"></script>
+    <link rel="index" title="Index" href="../../../genindex.html">
+    <link rel="search" title="Search" href="../../../search.html">
+    <link rel="next" title="LineBlind" href="LineBlind.html">
+    <link rel="prev" title="InLineMixer" href="InLineMixer.html"> 
+  </head><body data-dark_mode_code_blocks="true">
+
+<div id="top_nav">
+    
+
+    <nav>
+        
+            
+        
+
+        <p id="toggle_sidebar">
+            <a href="#" title="Toggle sidebar">|||</a>
+        </p>
+        <h1><a href="../../../index.html" title="Go to homepage">DISC Profile 0.3</a></h1>
+
+        <a id="mode_toggle" href="#" @click.prevent="handleClick" :title="mode">
+    <template v-if="mode == 'light'">
+        <svg width="100%" height="100%" viewbox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_light"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"></rect><circle cx="39.311" cy="39.524" r="15.734" style="fill:#fff;"></circle><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#fff;"></path></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M67.48,18.073c1.913,-1.912 1.913,-5.018 0,-6.931c-1.912,-1.912 -5.018,-1.912 -6.931,0l-6.798,6.799c-1.912,1.912 -1.912,5.018 0,6.931c1.913,1.912 5.018,1.912 6.931,-0l6.798,-6.799Z" style="fill:#fff;"></path></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.728,61.108c1.912,-1.913 1.912,-5.018 -0,-6.931c-1.913,-1.913 -5.019,-1.913 -6.931,-0l-6.799,6.798c-1.912,1.913 -1.912,5.019 0,6.931c1.913,1.913 5.019,1.913 6.931,0l6.799,-6.798Z" style="fill:#fff;"></path></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.682,54.177c-1.913,-1.913 -5.018,-1.913 -6.931,-0c-1.912,1.913 -1.912,5.018 0,6.931l6.798,6.798c1.913,1.913 5.019,1.913 6.931,0c1.913,-1.912 1.913,-5.018 0,-6.931l-6.798,-6.798Z" style="fill:#fff;"></path></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M4.901,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#fff;"></path></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901l-0,9.614c-0,2.705 2.196,4.901 4.9,4.901c2.705,-0 4.901,-2.196 4.901,-4.901l0,-9.614Z" style="fill:#fff;"></path></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M18.929,11.142c-1.912,-1.912 -5.018,-1.912 -6.931,0c-1.912,1.913 -1.912,5.019 0,6.931l6.799,6.799c1.912,1.912 5.018,1.912 6.931,-0c1.912,-1.913 1.912,-5.019 -0,-6.931l-6.799,-6.799Z" style="fill:#fff;"></path></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.108,34.623c-2.705,0 -4.901,2.196 -4.901,4.901c-0,2.705 2.196,4.901 4.901,4.901l9.614,0c2.705,0 4.901,-2.196 4.901,-4.901c-0,-2.705 -2.196,-4.901 -4.901,-4.901l-9.614,0Z" style="fill:#fff;"></path></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'dark'">
+        <svg width="100%" height="100%" viewbox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_dark"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"></rect><circle cx="39.311" cy="39.524" r="15.734" style="fill:#fff;"></circle><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.212,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.901,2.196 -4.901,4.901c0,2.705 2.197,4.901 4.901,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#fff;"></path></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.662,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.989,1.901 6.891,-0Z" style="fill:#fff;"></path></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.732,61.103c1.91,-1.91 1.91,-5.011 0,-6.921l-0.009,-0.01c-1.91,-1.91 -5.012,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.909,1.91 5.011,1.91 6.92,-0Z" style="fill:#fff;"></path></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.672,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#fff;"></path></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.52,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l-0,-0.01c-0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#fff;"></path></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.212,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.901,2.196 -4.901,4.901c0,2.704 2.197,4.9 4.901,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#fff;"></path></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.73,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 -0,-6.926Z" style="fill:#fff;"></path></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.098,34.623c-2.699,0 -4.891,2.192 -4.891,4.892l-0,0.019c-0,2.699 2.192,4.891 4.891,4.891c2.7,0 4.892,-2.192 4.892,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.892,-4.892Z" style="fill:#fff;"></path></g></g></g></svg>
+    </template>
+
+    <template v-if="mode == 'darkest'">
+        <svg width="100%" height="100%" viewbox="0 0 79 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="mode_darkest"><rect id="Bounds" x="0" y="-0" width="78.623" height="79.049" style="fill:none;"></rect><path d="M39.315,23.791c8.684,-0 15.734,7.05 15.734,15.733c0,8.684 -7.05,15.734 -15.734,15.734c-8.683,0 -15.733,-7.05 -15.733,-15.734c-0,-8.683 7.05,-15.733 15.733,-15.733Zm0,4.737c6.069,0 10.997,4.927 10.997,10.996c-0,6.069 -4.928,10.996 -10.997,10.996c-6.068,0 -10.996,-4.927 -10.996,-10.996c0,-6.069 4.928,-10.996 10.996,-10.996Z" style="fill:#fff;"></path><g id="beams"><g id="beam"><path id="beam1" serif:id="beam" d="M44.216,14.515c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,0 -4.9,2.196 -4.9,4.901c-0,2.705 2.196,4.901 4.9,4.901c2.705,0 4.901,-2.196 4.901,-4.901Z" style="fill:#fff;"></path></g><g id="beam2" serif:id="beam"><path id="beam3" serif:id="beam" d="M60.666,24.892c1.902,-1.902 1.902,-4.99 0,-6.892l-0.04,-0.039c-1.901,-1.902 -4.989,-1.902 -6.891,-0c-1.901,1.901 -1.901,4.989 0,6.891l0.04,0.04c1.902,1.901 4.99,1.901 6.891,-0Z" style="fill:#fff;"></path></g><g id="beam4" serif:id="beam"><path id="beam5" serif:id="beam" d="M25.737,61.103c1.909,-1.91 1.909,-5.011 -0,-6.921l-0.01,-0.01c-1.91,-1.91 -5.011,-1.91 -6.921,-0c-1.91,1.91 -1.91,5.011 -0,6.921l0.01,0.01c1.91,1.91 5.011,1.91 6.921,-0Z" style="fill:#fff;"></path></g><g id="beam6" serif:id="beam"><path id="beam7" serif:id="beam" d="M60.676,54.167c-1.907,-1.907 -5.004,-1.907 -6.911,0l-0.02,0.02c-1.907,1.907 -1.907,5.004 0,6.911c1.907,1.907 5.004,1.907 6.911,-0l0.02,-0.02c1.907,-1.907 1.907,-5.004 0,-6.911Z" style="fill:#fff;"></path></g><g id="beam8" serif:id="beam"><path id="beam9" serif:id="beam" d="M14.524,34.623c-2.702,0 -4.896,2.194 -4.896,4.896l0,0.01c0,2.702 2.194,4.896 4.896,4.896c2.702,0 4.896,-2.194 4.896,-4.896l0,-0.01c0,-2.702 -2.194,-4.896 -4.896,-4.896Z" style="fill:#fff;"></path></g><g id="beam10" serif:id="beam"><path id="beam11" serif:id="beam" d="M44.216,64.534c0,-2.705 -2.196,-4.901 -4.901,-4.901c-2.704,-0 -4.9,2.196 -4.9,4.901c-0,2.704 2.196,4.9 4.9,4.9c2.705,0 4.901,-2.196 4.901,-4.9Z" style="fill:#fff;"></path></g><g id="beam12" serif:id="beam"><path id="beam13" serif:id="beam" d="M25.734,17.943c-1.911,-1.911 -5.015,-1.911 -6.926,0l-0.005,0.005c-1.911,1.911 -1.911,5.015 0,6.926c1.911,1.911 5.015,1.911 6.926,0l0.005,-0.005c1.911,-1.911 1.911,-5.014 0,-6.926Z" style="fill:#fff;"></path></g><g id="beam14" serif:id="beam"><path id="beam15" serif:id="beam" d="M64.103,34.623c-2.7,0 -4.892,2.192 -4.892,4.892l-0,0.019c-0,2.699 2.192,4.891 4.892,4.891c2.699,0 4.891,-2.192 4.891,-4.891l0,-0.019c0,-2.7 -2.192,-4.892 -4.891,-4.892Z" style="fill:#fff;"></path></g></g></g></svg>
+    </template>
+</a>
+
+<script>
+(function() {
+    const LOCAL_STORAGE_KEY = 'piccoloThemeMode'
+
+    var initialMode = localStorage.getItem(LOCAL_STORAGE_KEY)
+
+    if (initialMode) {
+        // Make sure the value in local storage is valid
+        if (['light', 'dark', 'darkest'].indexOf(initialMode) == -1) {
+            initialMode = 'light'
+            localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+        }
+    } else {
+        // Check if the client prefers dark mode
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            initialMode = 'dark'
+        } else {
+            initialMode = 'light'
+        }
+        localStorage.setItem(LOCAL_STORAGE_KEY, initialMode)
+    }
+
+    document.documentElement.dataset.mode = initialMode
+
+    PetiteVue.createApp({
+        'mode': initialMode,
+        handleClick() {
+            let currentMode = this.mode
+
+            if (currentMode == 'light') {
+                this.mode = 'dark'
+            } else if (currentMode == 'dark') {
+                this.mode = 'darkest'
+            } else if (currentMode == 'darkest') {
+                this.mode = 'light'
+            }
+
+            document.documentElement.dataset.mode = this.mode
+            localStorage.setItem(LOCAL_STORAGE_KEY, this.mode)
+
+            console.log(this.mode)
+        }
+    }).mount('#mode_toggle')
+})()
+</script>
+            <p class="mobile_search_link">
+                <a href="../../../search.html" title="Search">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 65 64" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
+                        <path d="M14.873 40.009c-2.315-3.943-3.642-8.532-3.642-13.429C11.231 11.91 23.141 0 37.811 0s26.58 11.91 26.58 26.58-11.91 26.58-26.58 26.58a26.44 26.44 0 0 1-14.277-4.161L9.739 62.794a3.12 3.12 0 0 1-4.413 0L.913 58.382c-1.217-1.218-1.217-3.196 0-4.413l13.96-13.96zM37.811 8.054c10.225 0 18.526 8.301 18.526 18.526s-8.301 18.526-18.526 18.526-18.526-8.301-18.526-18.526S27.586 8.054 37.811 8.054z" fill="#fff"></path>
+                    </svg>
+                </a>
+            </p>
+        
+
+        <div class="searchbox_wrapper">
+            
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+      <input type="submit" value="Go">
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+    </nav>
+</div>
+
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper"><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">DEXPI Information Models</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../Builtin/model-index.html">Builtin</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Core/model-index.html">Core</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../model-index.html">Plant</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../Diagram/package-index.html">Diagram</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../Enumerations/package-index.html">Enumerations</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../Instrumentation/package-index.html">Instrumentation</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="package-index.html">Piping</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../PlantModel.html">PlantModel</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../PlantStructure/package-index.html">PlantStructure</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../ProcessEquipment/package-index.html">ProcessEquipment</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../Process/model-index.html">Process</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../disc-models/index.html">DISC Information Models</a></li>
+</ul>
+
+        </div>
+      </div>
+
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="inlinemeasuringelement">
+<h1>InlineMeasuringElement<a class="headerlink" href="#inlinemeasuringelement" title="Link to this heading">¶</a></h1>
+<p><a class="sp-element reference internal" href="../model-index.html"><span class="doc">Plant</span></a><span class="sp-element">::</span><a class="sp-element reference internal" href="package-index.html"><span class="doc">Piping</span></a><span class="sp-element">::</span><span class="sp-element">InlineMeasuringElement</span></p>
+<section id="Overview">
+<h2>Overview<a class="headerlink" href="#Overview" title="Link to this heading">¶</a></h2>
+<p class="rubric">Concrete Class</p>
+<p><strong>RDL:</strong><span> </span><a class="reference external" href="http://sandbox.dexpi.org/rdl/InlineMeasuringElement">INLINE MEASURING ELEMENT (http://sandbox.dexpi.org/rdl/InlineMeasuringElement)</a></p>
+<p>An inline measuring element.</p>
+<p><span>(</span><a class="reference external" href="../../../_images/uml-229.svg">Fullscreen Diagram</a><span>)</span></p>
+<svg xmlns:ns0="http://www.w3.org/2000/svg" width="1104.63537109375px" viewBox="0.0 0.0 1104.63537109375 788.4000000000001" style="max-width: 100%; background-color: white;"><style>
+            .uml-foreground-stroke {
+                stroke: black;
+                stroke-width: 1px;
+            }
+            
+            .uml-foreground-fill {
+                fill: black;
+            }
+            
+            .uml-background_color-type {
+                fill: #ffffcc;
+            }
+            
+            .uml-background_color-main_type {
+                fill: #ffff66;
+            }
+            
+            .uml-background_color-instance {
+                fill: blue;
+            }
+            
+            .uml-background_color-background {
+                fill: white;
+            }
+            
+            .uml-background_color-foreground {
+                fill: black;
+            }
+            
+            .uml-font-normal {
+                font-family: Arial;
+            }
+            
+            .uml-font-element {
+                font-family: Arial;
+            }
+            
+            .uml-fontsize-normal {
+                font-size: 10px;
+            }
+
+            .uml-fontsize-large {
+                font-size: 12px;
+            }
+            
+            .uml-source_marker-closed_arrow {
+                marker-start: url(#uml-marker-closed_arrow);
+            }
+            
+            .uml-source_marker-open_arrow {
+                marker-start: url(#uml-marker-open_arrow);
+            }
+            
+            .uml-source_marker-filled_diamond {
+                marker-start: url(#uml-marker-filled_diamond);
+            }
+
+            .uml-target_marker-closed_arrow {
+                marker-end: url(#uml-marker-closed_arrow);
+            }
+            
+            .uml-target_marker-open_arrow {
+                marker-end: url(#uml-marker-open_arrow);
+            }
+            
+            .uml-target_marker-filled_diamond {
+                marker-end: url(#uml-marker-filled_diamond);
+            }
+
+            </style><defs>
+        <marker id="uml-marker-closed_arrow" viewBox="-2 -2 14 14" refX="10" refY="5.0" markerWidth="14" markerHeight="14" orient="auto-start-reverse">
+          <path d="M 0 0 L 10 5.0 L 0 10 Z" stroke-linejoin="round" stroke-linecap="round" class="uml-foreground-stroke uml-background_color-background"></path>
+        </marker>
+        <marker id="uml-marker-open_arrow" viewBox="-2 -2 14 14" refX="10" refY="5.0" markerWidth="14" markerHeight="14" orient="auto-start-reverse">
+          <path d="M 0 0 L 10 5.0 L 0 10" stroke-linejoin="round" stroke-linecap="round" fill="none" class="uml-foreground-stroke"></path>
+        </marker>
+        <marker id="uml-marker-filled_diamond" viewBox="-2 -2 14 14" refX="10" refY="5.0" markerWidth="14" markerHeight="14" orient="auto-start-reverse">
+          <path d="M 0 5.0 L      5.0 2.0        10 5.0      5.0 8.0 Z       " stroke-linejoin="round" stroke-linecap="round" class="uml-foreground-stroke uml-background_color-foreground"></path>
+        </marker>
+      </defs><rect class="uml-background_color-type uml-foreground-stroke" x="883.9420117187501" y="125.19999999999999" width="200.0" height="23.799999999999997"></rect><text x="983.9420117187501" text-anchor="middle" font-size="0px" y="140.64"><a href="../../../dexpi-models/Core/ConceptualObject.html"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large" font-weight="bold" font-style="italic">ConceptualObject</tspan></a></text><rect class="uml-background_color-type uml-foreground-stroke" x="654.9823242187501" y="125.19999999999999" width="117.36859375000002" height="23.799999999999997"></rect><text x="713.6666210937501" text-anchor="middle" font-size="0px" y="140.64"><a href="../../../dexpi-models/Plant/Instrumentation/SensingLocation.html"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large" font-weight="bold" font-style="italic">SensingLocation</tspan></a></text><rect class="uml-background_color-type uml-foreground-stroke" x="368.56945591517865" y="278.4" width="300.0" height="23.799999999999997"></rect><text x="518.5694559151787" text-anchor="middle" font-size="0px" y="293.84"><a href="../../../dexpi-models/Plant/Piping/PipingComponent.html"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large" font-weight="bold" font-style="italic">PipingComponent</tspan></a></text><rect class="uml-background_color-type uml-foreground-stroke" x="445.0137304687501" y="125.19999999999999" width="189.96859375000005" height="23.799999999999997"></rect><text x="539.9980273437501" text-anchor="middle" font-size="0px" y="140.64"><a href="../../../dexpi-models/Plant/Piping/PipingNetworkSegmentItem.html"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large" font-weight="bold" font-style="italic">PipingNetworkSegmentItem</tspan></a></text><rect class="uml-background_color-type uml-foreground-stroke" x="12.0" y="125.19999999999999" width="127.84029296875002" height="23.799999999999997"></rect><text x="75.92014648437501" text-anchor="middle" font-size="0px" y="140.64"><a href="../../../dexpi-models/Plant/Piping/PipingNodeOwner.html"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large" font-weight="bold" font-style="italic">PipingNodeOwner</tspan></a></text><rect class="uml-background_color-type uml-foreground-stroke" x="300.40640625000015" y="125.19999999999999" width="124.60732421875002" height="23.799999999999997"></rect><text x="362.71006835937516" text-anchor="middle" font-size="0px" y="140.64"><a href="../../../dexpi-models/Plant/Piping/PipingSourceItem.html"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large" font-weight="bold" font-style="italic">PipingSourceItem</tspan></a></text><rect class="uml-background_color-type uml-foreground-stroke" x="159.84029296875008" y="125.19999999999999" width="120.56611328125003" height="23.799999999999997"></rect><text x="220.12334960937508" text-anchor="middle" font-size="0px" y="140.64"><a href="../../../dexpi-models/Plant/Piping/PipingTargetItem.html"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large" font-weight="bold" font-style="italic">PipingTargetItem</tspan></a></text><rect class="uml-background_color-type uml-foreground-stroke" x="942.9334505208334" y="12.0" width="148.6837890625" height="23.799999999999997"></rect><text x="1017.2753450520834" text-anchor="middle" font-size="0px" y="27.439999999999998"><a href="../../../dexpi-models/Core/Diagram/AttributeRepresentation.html"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large" font-weight="bold">AttributeRepresentation</tspan></a></text><rect class="uml-background_color-type uml-foreground-stroke" x="786.7213411458334" y="12.0" width="136.212109375" height="23.799999999999997"></rect><text x="854.8273958333334" text-anchor="middle" font-size="0px" y="27.439999999999998"><a href="../../../dexpi-models/Core/Diagram/RepresentationGroup.html"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large" font-weight="bold">RepresentationGroup</tspan></a></text><rect class="uml-background_color-type uml-foreground-stroke" x="1018.9420117187501" y="278.4" width="50.0" height="23.799999999999997"></rect><text x="1043.94201171875" text-anchor="middle" font-size="0px" y="293.84"><a href="../../../dexpi-models/Core/Note.html"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large" font-weight="bold">Note</tspan></a></text><rect class="uml-background_color-type uml-foreground-stroke" x="750.1975781250001" y="278.4" width="119.3189453125" height="23.799999999999997"></rect><text x="809.8570507812501" text-anchor="middle" font-size="0px" y="293.84"><a href="../../../dexpi-models/Core/PersistentIdentifier.html"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large" font-weight="bold">PersistentIdentifier</tspan></a></text><rect class="uml-background_color-type uml-foreground-stroke" x="904.8980664062501" y="278.4" width="50.0" height="23.799999999999997"></rect><text x="929.8980664062501" text-anchor="middle" font-size="0px" y="293.84"><a href="../../../dexpi-models/Core/Role.html"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large" font-weight="bold">Role</tspan></a></text><rect class="uml-background_color-type uml-foreground-stroke" x="327.9919819568454" y="752.6" width="212.51171875000003" height="23.799999999999997"></rect><text x="434.2478413318454" text-anchor="middle" font-size="0px" y="768.0400000000001"><a href="../../../disc-models/DiscProfile/InformationModel/InlineMeasuringElementTypeCode.html"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large" font-weight="bold">InlineMeasuringElementTypeCode</tspan></a></text><rect class="uml-background_color-type uml-foreground-stroke" x="136.05773716517865" y="278.4" width="212.51171875000003" height="23.799999999999997"></rect><text x="242.31359654017865" text-anchor="middle" font-size="0px" y="293.84"><a href="../../../dexpi-models/Plant/Instrumentation/InlineMeasuringElementReference.html"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large" font-weight="bold">InlineMeasuringElementReference</tspan></a></text><rect class="uml-background_color-main_type uml-foreground-stroke" x="181.2829975818454" y="391.59999999999997" width="505.9296875" height="257.8"></rect><text x="434.2478413318454" text-anchor="middle" font-size="0px" y="407.03999999999996"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large" font-weight="bold">InlineMeasuringElement</tspan></text><polyline class="uml-foreground-stroke" points="181.2829975818454,415.4 687.2126850818454,415.4" fill="none"></polyline><text x="186.2829975818454" font-size="0px" y="431.84"><a href="../../../dexpi-models/Plant/Piping/InlineMeasuringElement.html#sp:plant.piping.inlinemeasuringelement.insulationthickness"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">InsulationThickness</tspan></a><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large"> :</tspan></text><text x="333.1931538318454" font-size="0px" y="431.84"><a href="../../../dexpi-models/Builtin/Undefined.html"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">Undefined</tspan></a><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large"> | </tspan><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">&lt;</tspan><a href="../../../dexpi-models/Core/PhysicalQuantities/PhysicalQuantity.html"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">PhysicalQuantity</tspan></a><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large"> with </tspan><a href="../../../dexpi-models/Core/PhysicalQuantities/PhysicalQuantity.html#sp:core.physicalquantities.physicalquantity.unittype"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">UnitType</tspan></a><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large"> → </tspan><a href="../../../dexpi-models/Core/PhysicalQuantities/LengthUnit.html"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">LengthUnit</tspan></a><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">&gt;</tspan><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large"> [0..1]</tspan></text><text x="186.2829975818454" font-size="0px" y="445.64"><a href="../../../dexpi-models/Plant/Piping/InlineMeasuringElement.html#sp:plant.piping.inlinemeasuringelement.insulationtype"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">InsulationType</tspan></a><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large"> :</tspan></text><text x="333.1931538318454" font-size="0px" y="445.64"><a href="../../../dexpi-models/Builtin/Undefined.html"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">Undefined</tspan></a><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large"> | </tspan><a href="../../../dexpi-models/Builtin/String.html"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">String</tspan></a><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large"> [0..1]</tspan></text><text x="186.2829975818454" font-size="0px" y="459.44"><a href="../../../dexpi-models/Plant/Piping/InlineMeasuringElement.html#sp:plant.piping.inlinemeasuringelement.pipingcomponentname"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">PipingComponentName</tspan></a><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large"> :</tspan></text><text x="333.1931538318454" font-size="0px" y="459.44"><a href="../../../dexpi-models/Builtin/Undefined.html"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">Undefined</tspan></a><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large"> | </tspan><a href="../../../dexpi-models/Builtin/String.html"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">String</tspan></a><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large"> [0..1]</tspan></text><text x="186.2829975818454" font-size="0px" y="473.24"><a href="../../../dexpi-models/Plant/Piping/InlineMeasuringElement.html#sp:plant.piping.inlinemeasuringelement.pipingcomponentnumber"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">PipingComponentNumber</tspan></a><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large"> :</tspan></text><text x="333.1931538318454" font-size="0px" y="473.24"><a href="../../../dexpi-models/Builtin/Undefined.html"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">Undefined</tspan></a><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large"> | </tspan><a href="../../../dexpi-models/Builtin/String.html"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">String</tspan></a><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large"> [0..1]</tspan></text><polyline class="uml-foreground-stroke" points="181.2829975818454,481.59999999999997 687.2126850818454,481.59999999999997" fill="none"></polyline><text x="186.2829975818454" font-size="0px" y="498.03999999999996"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large" font-style="italic">from </tspan><a href="../../../disc-models/DiscProfile/model-index.html"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large" font-style="italic">DiscProfile:</tspan></a></text><text x="186.2829975818454" font-size="0px" y="516.84"><a href="../../../disc-models/DiscProfile/InformationModel/InlineMeasuringElementExtension.html#sp:discprofile.informationmodel.inlinemeasuringelementextension.inlineprimaryelementfunctioncategory"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">InlinePrimaryElementFunctionCategory</tspan></a><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large"> :</tspan></text><text x="403.8747944568454" font-size="0px" y="516.84"><a href="../../../dexpi-models/Builtin/Undefined.html"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">Undefined</tspan></a><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large"> | </tspan><a href="../../../dexpi-models/Builtin/String.html"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">String</tspan></a><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large"> [0..1]</tspan></text><text x="186.2829975818454" font-size="0px" y="530.64"><a href="../../../disc-models/DiscProfile/InformationModel/InlineMeasuringElementExtension.html#sp:discprofile.informationmodel.inlinemeasuringelementextension.inlineprimaryelementfunctions"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">InlinePrimaryElementFunctions</tspan></a><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large"> :</tspan></text><text x="403.8747944568454" font-size="0px" y="530.64"><a href="../../../dexpi-models/Builtin/Undefined.html"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">Undefined</tspan></a><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large"> | </tspan><a href="../../../dexpi-models/Builtin/String.html"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">String</tspan></a><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large"> [0..1]</tspan></text><text x="186.2829975818454" font-size="0px" y="544.4399999999999"><a href="../../../disc-models/DiscProfile/InformationModel/InlineMeasuringElementExtension.html#sp:discprofile.informationmodel.inlinemeasuringelementextension.instrumentloopnumber"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">InstrumentLoopNumber</tspan></a><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large"> :</tspan></text><text x="403.8747944568454" font-size="0px" y="544.4399999999999"><a href="../../../dexpi-models/Builtin/Undefined.html"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">Undefined</tspan></a><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large"> | </tspan><a href="../../../dexpi-models/Builtin/String.html"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">String</tspan></a><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large"> [0..1]</tspan></text><text x="186.2829975818454" font-size="0px" y="558.2399999999999"><a href="../../../disc-models/DiscProfile/InformationModel/InlineMeasuringElementExtension.html#sp:discprofile.informationmodel.inlinemeasuringelementextension.itemtag"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">ItemTag</tspan></a><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large"> :</tspan></text><text x="403.8747944568454" font-size="0px" y="558.2399999999999"><a href="../../../dexpi-models/Builtin/Undefined.html"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">Undefined</tspan></a><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large"> | </tspan><a href="../../../dexpi-models/Builtin/String.html"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">String</tspan></a><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large"> [0..1]</tspan></text><text x="186.2829975818454" font-size="0px" y="572.0399999999998"><a href="../../../disc-models/DiscProfile/InformationModel/InlineMeasuringElementExtension.html#sp:discprofile.informationmodel.inlinemeasuringelementextension.sequence"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">Sequence</tspan></a><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large"> :</tspan></text><text x="403.8747944568454" font-size="0px" y="572.0399999999998"><a href="../../../dexpi-models/Builtin/Undefined.html"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">Undefined</tspan></a><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large"> | </tspan><a href="../../../dexpi-models/Builtin/String.html"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">String</tspan></a><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large"> [0..1]</tspan></text><text x="186.2829975818454" font-size="0px" y="585.8399999999998"><a href="../../../disc-models/DiscProfile/InformationModel/InlineMeasuringElementExtension.html#sp:discprofile.informationmodel.inlinemeasuringelementextension.setpoint"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">SetPoint</tspan></a><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large"> :</tspan></text><text x="403.8747944568454" font-size="0px" y="585.8399999999998"><a href="../../../dexpi-models/Builtin/Undefined.html"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">Undefined</tspan></a><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large"> | </tspan><a href="../../../dexpi-models/Core/PhysicalQuantities/PhysicalQuantity.html"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">PhysicalQuantity</tspan></a><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large"> [0..1]</tspan></text><text x="186.2829975818454" font-size="0px" y="599.6399999999998"><a href="../../../disc-models/DiscProfile/InformationModel/InlineMeasuringElementExtension.html#sp:discprofile.informationmodel.inlinemeasuringelementextension.specialitemnumber"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">SpecialItemNumber</tspan></a><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large"> :</tspan></text><text x="403.8747944568454" font-size="0px" y="599.6399999999998"><a href="../../../dexpi-models/Builtin/Undefined.html"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">Undefined</tspan></a><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large"> | </tspan><a href="../../../dexpi-models/Builtin/String.html"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">String</tspan></a><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large"> [0..1]</tspan></text><text x="186.2829975818454" font-size="0px" y="613.4399999999997"><a href="../../../disc-models/DiscProfile/InformationModel/InlineMeasuringElementExtension.html#sp:discprofile.informationmodel.inlinemeasuringelementextension.tagsuffix"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">TagSuffix</tspan></a><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large"> :</tspan></text><text x="403.8747944568454" font-size="0px" y="613.4399999999997"><a href="../../../dexpi-models/Builtin/Undefined.html"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">Undefined</tspan></a><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large"> | </tspan><a href="../../../dexpi-models/Builtin/String.html"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">String</tspan></a><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large"> [0..1]</tspan></text><text x="186.2829975818454" font-size="0px" y="627.2399999999997"><a href="../../../disc-models/DiscProfile/InformationModel/InlineMeasuringElementExtension.html#sp:discprofile.informationmodel.inlinemeasuringelementextension.tagtype"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">TagType</tspan></a><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large"> :</tspan></text><text x="403.8747944568454" font-size="0px" y="627.2399999999997"><a href="../../../dexpi-models/Builtin/Undefined.html"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">Undefined</tspan></a><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large"> | </tspan><a href="../../../dexpi-models/Builtin/String.html"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">String</tspan></a><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large"> [0..1]</tspan></text><text x="186.2829975818454" font-size="0px" y="641.0399999999996"><a href="../../../disc-models/DiscProfile/InformationModel/InlineMeasuringElementExtension.html#sp:discprofile.informationmodel.inlinemeasuringelementextension.typicalreference"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">TypicalReference</tspan></a><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large"> :</tspan></text><text x="403.8747944568454" font-size="0px" y="641.0399999999996"><a href="../../../dexpi-models/Builtin/Undefined.html"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">Undefined</tspan></a><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large"> | </tspan><a href="../../../dexpi-models/Builtin/String.html"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">String</tspan></a><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large"> [0..1]</tspan></text><rect class="uml-background_color-type uml-foreground-stroke" x="15.488723958333367" y="278.4" width="78.24941406250001" height="23.799999999999997"></rect><text x="54.61343098958337" text-anchor="middle" font-size="0px" y="293.84"><a href="../../../dexpi-models/Plant/Piping/PipingNode.html"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large" font-weight="bold">PipingNode</tspan></a></text><polyline class="uml-foreground-stroke uml-source_marker-closed_arrow" points="923.9420117187501,149.0 923.9420117187501,174.79999999999998 734.6666210937501,174.79999999999998 734.6666210937501,213.2 734.6666210937501,214.2 734.6666210937501,242.59999999999997 625.7123130580358,242.59999999999997 625.7123130580358,278.4" fill="none"></polyline><polyline class="uml-foreground-stroke uml-source_marker-closed_arrow" points="713.6666210937501,149.0 713.6666210937501,213.2 713.6666210937501,214.2 713.6666210937501,232.59999999999997 582.8551702008929,232.59999999999997 582.8551702008929,278.4" fill="none"></polyline><polyline class="uml-foreground-stroke uml-source_marker-closed_arrow" points="518.5694559151787,302.2 518.5694559151787,346.3999999999999 518.5694559151787,347.3999999999999 518.5694559151787,391.59999999999997" fill="none"></polyline><polyline class="uml-foreground-stroke uml-source_marker-closed_arrow" points="539.9980273437501,149.0 539.9980273437502,213.2 539.9980273437502,214.2 539.9980273437501,278.4" fill="none"></polyline><polyline class="uml-foreground-stroke uml-source_marker-closed_arrow" points="97.22686197916669,149.0 97.22686197916664,213.2 97.22686197916664,214.2 97.22686197916664,252.59999999999997 411.4265987723215,252.59999999999997 411.4265987723215,278.4" fill="none"></polyline><polyline class="uml-foreground-stroke uml-source_marker-closed_arrow" points="362.71006835937516,149.0 362.7100683593751,213.2 362.7100683593751,214.2 362.7100683593751,232.59999999999997 497.1408844866072,232.59999999999997 497.1408844866072,278.4" fill="none"></polyline><polyline class="uml-foreground-stroke uml-source_marker-closed_arrow" points="220.12334960937508,149.0 220.12334960937505,213.2 220.12334960937505,214.2 220.12334960937505,242.59999999999997 454.2837416294644,242.59999999999997 454.2837416294644,278.4" fill="none"></polyline><rect class="uml-background_color-background " x="884.5474804687501" y="204.79999999999998" width="90.701171875" height="17.799999999999997"></rect><text x="929.8980664062501" text-anchor="middle" font-size="0px" y="217.23999999999998"><a href="../../../dexpi-models/Core/ConceptualObject.html#sp:core.conceptualobject.performedroles"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">PerformedRoles</tspan></a></text><polyline class="uml-foreground-stroke" points="1003.9420117187501,149.0 1003.9420117187501,194.79999999999998 929.8980664062501,194.79999999999998 929.8980664062501,204.79999999999998" fill="none"></polyline><polyline class="uml-foreground-stroke uml-target_marker-open_arrow" points="929.8980664062501,222.59999999999997 929.8980664062501,278.4" fill="none"></polyline><text x="1011.9420117187501" font-size="0px" y="161.2"><tspan class="uml-foreground-fill uml-font-normal uml-fontsize-normal">*</tspan></text><text x="937.8980664062501" font-size="0px" y="272.79999999999995"><tspan class="uml-foreground-fill uml-font-normal uml-fontsize-normal">*</tspan></text><rect class="uml-background_color-background " x="755.1666210937501" y="204.79999999999998" width="109.380859375" height="17.799999999999997"></rect><text x="809.8570507812501" text-anchor="middle" font-size="0px" y="217.23999999999998"><a href="../../../dexpi-models/Core/ConceptualObject.html#sp:core.conceptualobject.persistentidentifiers"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">PersistentIdentifiers</tspan></a></text><polyline class="uml-foreground-stroke uml-source_marker-filled_diamond" points="963.9420117187501,149.0 963.9420117187501,184.79999999999998 809.8570507812501,184.79999999999998 809.8570507812501,204.79999999999998" fill="none"></polyline><polyline class="uml-foreground-stroke uml-target_marker-open_arrow" points="809.8570507812501,222.59999999999997 809.8570507812501,278.4" fill="none"></polyline><text x="971.9420117187501" font-size="0px" y="161.2"><tspan class="uml-foreground-fill uml-font-normal uml-fontsize-normal">0..1</tspan></text><text x="817.8570507812501" font-size="0px" y="272.79999999999995"><tspan class="uml-foreground-fill uml-font-normal uml-fontsize-normal">*</tspan></text><rect class="uml-background_color-background " x="995.2486523437501" y="204.79999999999998" width="97.38671875" height="17.799999999999997"></rect><text x="1043.94201171875" text-anchor="middle" font-size="0px" y="217.23999999999998"><a href="../../../dexpi-models/Core/ConceptualObject.html#sp:core.conceptualobject.referencednotes"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">ReferencedNotes</tspan></a></text><polyline class="uml-foreground-stroke" points="1043.94201171875,149.0 1043.94201171875,204.79999999999998" fill="none"></polyline><polyline class="uml-foreground-stroke uml-target_marker-open_arrow" points="1043.94201171875,222.59999999999997 1043.94201171875,278.4" fill="none"></polyline><text x="1051.94201171875" font-size="0px" y="161.2"><tspan class="uml-foreground-fill uml-font-normal uml-fontsize-normal">*</tspan></text><text x="1051.94201171875" font-size="0px" y="272.79999999999995"><tspan class="uml-foreground-fill uml-font-normal uml-fontsize-normal">*</tspan></text><rect class="uml-background_color-background " x="997.9345247395834" y="71.6" width="38.681640625" height="17.799999999999997"></rect><text x="1017.2753450520834" text-anchor="middle" font-size="0px" y="84.03999999999999"><a href="../../../dexpi-models/Core/Diagram/AttributeRepresentation.html#sp:core.diagram.attributerepresentation.object"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">Object</tspan></a></text><polyline class="uml-foreground-stroke" points="1017.2753450520834,35.8 1017.2753450520834,71.6" fill="none"></polyline><polyline class="uml-foreground-stroke uml-target_marker-open_arrow" points="1017.2753450520834,89.39999999999999 1017.2753450520834,125.19999999999999" fill="none"></polyline><text x="1025.2753450520834" font-size="0px" y="48.0"><tspan class="uml-foreground-fill uml-font-normal uml-fontsize-normal">*</tspan></text><rect class="uml-background_color-background " x="822.1447786458334" y="71.6" width="65.365234375" height="17.799999999999997"></rect><text x="854.8273958333334" text-anchor="middle" font-size="0px" y="84.03999999999999"><a href="../../../dexpi-models/Core/Diagram/RepresentationGroup.html#sp:core.diagram.representationgroup.represents"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">Represents</tspan></a></text><polyline class="uml-foreground-stroke" points="854.8273958333334,35.8 854.8273958333334,71.6" fill="none"></polyline><polyline class="uml-foreground-stroke uml-target_marker-open_arrow" points="854.8273958333334,89.39999999999999 854.8273958333334,99.39999999999999 950.6086783854167,99.39999999999999 950.6086783854167,125.19999999999999" fill="none"></polyline><text x="862.8273958333334" font-size="0px" y="48.0"><tspan class="uml-foreground-fill uml-font-normal uml-fontsize-normal">*</tspan></text><rect class="uml-background_color-background " x="381.2740132068454" y="685.2" width="105.94765625000001" height="31.599999999999998"></rect><text x="434.2478413318454" text-anchor="middle" font-size="0px" y="697.6400000000001"><a href="../../../disc-models/DiscProfile/InformationModel/InlineMeasuringElementExtension.html#sp:discprofile.informationmodel.inlinemeasuringelementextension.typecode"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">TypeCode</tspan></a></text><text x="434.2478413318454" text-anchor="middle" font-size="0px" y="711.44"><a href="../../../disc-models/DiscProfile/InformationModel/InlineMeasuringElementExtension.html#sp:discprofile.informationmodel.inlinemeasuringelementextension.typecode"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large" font-style="italic">(from DiscProfile)</tspan></a></text><polyline class="uml-foreground-stroke" points="434.2478413318454,649.4 434.2478413318454,685.2" fill="none"></polyline><polyline class="uml-foreground-stroke uml-target_marker-open_arrow" points="434.2478413318454,716.8000000000001 434.2478413318454,752.6" fill="none"></polyline><text x="442.2478413318454" font-size="0px" y="661.6"><tspan class="uml-foreground-fill uml-font-normal uml-fontsize-normal">*</tspan></text><text x="442.2478413318454" font-size="0px" y="747.0000000000001"><tspan class="uml-foreground-fill uml-font-normal uml-fontsize-normal">0..1</tspan></text><rect class="uml-background_color-background " x="175.94543247767865" y="337.99999999999994" width="132.736328125" height="17.799999999999997"></rect><text x="242.31359654017865" text-anchor="middle" font-size="0px" y="350.43999999999994"><a href="../../../dexpi-models/Plant/Instrumentation/InlineMeasuringElementReference.html#sp:plant.instrumentation.inlinemeasuringelementreference.inlinemeasuringelement"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">InlineMeasuringElement</tspan></a></text><polyline class="uml-foreground-stroke" points="242.31359654017865,302.2 242.31359654017865,337.99999999999994" fill="none"></polyline><polyline class="uml-foreground-stroke uml-target_marker-open_arrow" points="242.31359654017865,355.79999999999995 242.31359654017865,365.79999999999995 349.926226748512,365.79999999999995 349.926226748512,391.59999999999997" fill="none"></polyline><text x="250.31359654017865" font-size="0px" y="314.4"><tspan class="uml-foreground-fill uml-font-normal uml-fontsize-normal">0..1</tspan></text><text x="357.926226748512" font-size="0px" y="385.99999999999994"><tspan class="uml-foreground-fill uml-font-normal uml-fontsize-normal">0..1</tspan></text><rect class="uml-background_color-background " x="35.26968098958332" y="204.79999999999998" width="38.6875" height="17.799999999999997"></rect><text x="54.61343098958332" text-anchor="middle" font-size="0px" y="217.23999999999998"><a href="../../../dexpi-models/Plant/Piping/PipingNodeOwner.html#sp:plant.piping.pipingnodeowner.nodes"><tspan class="uml-foreground-fill uml-font-element uml-fontsize-large">Nodes</tspan></a></text><polyline class="uml-foreground-stroke uml-source_marker-filled_diamond" points="54.61343098958334,149.0 54.61343098958332,204.79999999999998" fill="none"></polyline><polyline class="uml-foreground-stroke uml-target_marker-open_arrow" points="54.61343098958332,222.59999999999997 54.61343098958337,278.4" fill="none"></polyline><text x="62.61343098958332" font-size="0px" y="161.2"><tspan class="uml-foreground-fill uml-font-normal uml-fontsize-normal">0..1</tspan></text><text x="62.61343098958332" font-size="0px" y="272.79999999999995"><tspan class="uml-foreground-fill uml-font-normal uml-fontsize-normal">*</tspan></text></svg><p class="rubric">Supertypes</p>
+<ul class="simple">
+<li><p><a class="sp-element reference internal" href="PipingComponent.html"><span class="doc">PipingComponent</span></a></p></li>
+</ul>
+<p class="rubric">Extensions</p>
+<ul class="simple">
+<li><p><a class="sp-element reference internal" href="../../../disc-models/DiscProfile/InformationModel/InlineMeasuringElementExtension.html"><span class="doc">InlineMeasuringElementExtension</span></a></p></li>
+</ul>
+<p class="rubric">Subtypes</p>
+<ul class="simple">
+<li><p><a class="sp-element reference internal" href="../../../disc-models/DiscProfile/InformationModel/AveragingPitotTubeFlowMeter.html"><span class="doc">AveragingPitotTubeFlowMeter</span></a></p></li>
+<li><p><a class="sp-element reference internal" href="../../../disc-models/DiscProfile/InformationModel/ClampOn.html"><span class="doc">ClampOn</span></a></p></li>
+<li><p><a class="sp-element reference internal" href="../../../disc-models/DiscProfile/InformationModel/CoriolisMassFlowMeter.html"><span class="doc">CoriolisMassFlowMeter</span></a></p></li>
+<li><p><a class="sp-element reference internal" href="ElectromagneticFlowMeter.html"><span class="doc">ElectromagneticFlowMeter</span></a></p></li>
+<li><p><a class="sp-element reference internal" href="../../../disc-models/DiscProfile/InformationModel/FlowIndicator.html"><span class="doc">FlowIndicator</span></a></p></li>
+<li><p><a class="sp-element reference internal" href="FlowMeasuringElement.html"><span class="doc">FlowMeasuringElement</span></a></p></li>
+<li><p><a class="sp-element reference internal" href="../../../disc-models/DiscProfile/InformationModel/FlowMeter.html"><span class="doc">FlowMeter</span></a></p></li>
+<li><p><a class="sp-element reference internal" href="FlowNozzle.html"><span class="doc">FlowNozzle</span></a></p></li>
+<li><p><a class="sp-element reference internal" href="../../../disc-models/DiscProfile/InformationModel/FlowNozzleMeter.html"><span class="doc">FlowNozzleMeter</span></a></p></li>
+<li><p><a class="sp-element reference internal" href="../../../disc-models/DiscProfile/InformationModel/LevelBridle.html"><span class="doc">LevelBridle</span></a></p></li>
+<li><p><a class="sp-element reference internal" href="../../../disc-models/DiscProfile/InformationModel/LevelMeasuringInstrumentNuclear.html"><span class="doc">LevelMeasuringInstrumentNuclear</span></a></p></li>
+<li><p><a class="sp-element reference internal" href="../../../disc-models/DiscProfile/InformationModel/LevelSensor.html"><span class="doc">LevelSensor</span></a></p></li>
+<li><p><a class="sp-element reference internal" href="MassFlowMeasuringElement.html"><span class="doc">MassFlowMeasuringElement</span></a></p></li>
+<li><p><a class="sp-element reference internal" href="../../../disc-models/DiscProfile/InformationModel/OrificePlate.html"><span class="doc">OrificePlate</span></a></p></li>
+<li><p><a class="sp-element reference internal" href="PositiveDisplacementFlowMeter.html"><span class="doc">PositiveDisplacementFlowMeter</span></a></p></li>
+<li><p><a class="sp-element reference internal" href="../../../disc-models/DiscProfile/InformationModel/QuickChangeOrificePlate.html"><span class="doc">QuickChangeOrificePlate</span></a></p></li>
+<li><p><a class="sp-element reference internal" href="TurbineFlowMeter.html"><span class="doc">TurbineFlowMeter</span></a></p></li>
+<li><p><a class="sp-element reference internal" href="../../../disc-models/DiscProfile/InformationModel/UltrasonicFlowMeter.html"><span class="doc">UltrasonicFlowMeter</span></a></p></li>
+<li><p><a class="sp-element reference internal" href="../../../disc-models/DiscProfile/InformationModel/VariableAreaFlowIndicator.html"><span class="doc">VariableAreaFlowIndicator</span></a></p></li>
+<li><p><a class="sp-element reference internal" href="VariableAreaFlowMeter.html"><span class="doc">VariableAreaFlowMeter</span></a></p></li>
+<li><p><a class="sp-element reference internal" href="VenturiTube.html"><span class="doc">VenturiTube</span></a></p></li>
+<li><p><a class="sp-element reference internal" href="../../../disc-models/DiscProfile/InformationModel/VenturiTubeFlowMeter.html"><span class="doc">VenturiTubeFlowMeter</span></a></p></li>
+<li><p><a class="sp-element reference internal" href="VolumeFlowMeasuringElement.html"><span class="doc">VolumeFlowMeasuringElement</span></a></p></li>
+<li><p><a class="sp-element reference internal" href="../../../disc-models/DiscProfile/InformationModel/VortexFlowMeter.html"><span class="doc">VortexFlowMeter</span></a></p></li>
+</ul>
+</section>
+<section id="Members">
+<h2>Members<a class="headerlink" href="#Members" title="Link to this heading">¶</a></h2>
+<section id="member-list-section-Data Properties">
+<h3>Data Properties<a class="headerlink" href="#member-list-section-Data%20Properties" title="Link to this heading">¶</a></h3>
+</section>
+<table class="docutils align-left">
+<thead>
+<tr class="row-odd"><th class="head"><p>Name</p></th>
+<th class="head"><p>Multiplicity</p></th>
+<th class="head"><p>Type</p></th>
+<th class="head"><p>Ordered</p></th>
+<th class="head"><p>Unique</p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="sp-element reference internal" href="#sp:plant.piping.inlinemeasuringelement.insulationthickness"><span class="std std-ref">InsulationThickness</span></a></p></td>
+<td><p>0..1</p></td>
+<td><p><a class="sp-element reference internal" href="../../Builtin/Undefined.html"><span class="doc">Undefined</span></a><span> | </span><span>&lt;</span><a class="sp-element reference internal" href="../../Core/PhysicalQuantities/PhysicalQuantity.html"><span class="doc">PhysicalQuantity</span></a><span> with </span><a class="sp-element reference internal" href="../../Core/PhysicalQuantities/PhysicalQuantity.html#sp:core.physicalquantities.physicalquantity.unittype"><span class="std std-ref">UnitType</span></a><span> → </span><a class="sp-element reference internal" href="../../Core/PhysicalQuantities/LengthUnit.html"><span class="doc">LengthUnit</span></a><span>&gt;</span></p></td>
+<td><p>no</p></td>
+<td><p>no</p></td>
+<td><p>The insulation thickness of the <a class="sp-element reference internal" href="#"><span class="doc">InlineMeasuringElement</span></a>.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="sp-element reference internal" href="#sp:plant.piping.inlinemeasuringelement.insulationtype"><span class="std std-ref">InsulationType</span></a></p></td>
+<td><p>0..1</p></td>
+<td><p><a class="sp-element reference internal" href="../../Builtin/Undefined.html"><span class="doc">Undefined</span></a><span> | </span><a class="sp-element reference internal" href="../../Builtin/String.html"><span class="doc">String</span></a></p></td>
+<td><p>no</p></td>
+<td><p>no</p></td>
+<td><p>The identification code for the insulation type related to the <a class="sp-element reference internal" href="#"><span class="doc">InlineMeasuringElement</span></a>. So far,
+DEXPI does not define restrictions for valid values.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="sp-element reference internal" href="#sp:plant.piping.inlinemeasuringelement.pipingcomponentname"><span class="std std-ref">PipingComponentName</span></a></p></td>
+<td><p>0..1</p></td>
+<td><p><a class="sp-element reference internal" href="../../Builtin/Undefined.html"><span class="doc">Undefined</span></a><span> | </span><a class="sp-element reference internal" href="../../Builtin/String.html"><span class="doc">String</span></a></p></td>
+<td><p>no</p></td>
+<td><p>no</p></td>
+<td><p>A string to classify the <a class="sp-element reference internal" href="#"><span class="doc">InlineMeasuringElement</span></a>. DEXPI does not prescribe the
+classification system. Typically, company or site site standards are
+used.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="sp-element reference internal" href="#sp:plant.piping.inlinemeasuringelement.pipingcomponentnumber"><span class="std std-ref">PipingComponentNumber</span></a></p></td>
+<td><p>0..1</p></td>
+<td><p><a class="sp-element reference internal" href="../../Builtin/Undefined.html"><span class="doc">Undefined</span></a><span> | </span><a class="sp-element reference internal" href="../../Builtin/String.html"><span class="doc">String</span></a></p></td>
+<td><p>no</p></td>
+<td><p>no</p></td>
+<td><p>An identifier of the <a class="sp-element reference internal" href="#"><span class="doc">InlineMeasuringElement</span></a>. DEXPI does not prescribe the scope of the
+identifier, i.e., whether it should be unique in, e.g., a
+<a class="sp-element reference internal" href="PipingNetworkSegment.html"><span class="doc">PipingNetworkSegment</span></a> or a
+<a class="sp-element reference internal" href="PipingNetworkSystem.html"><span class="doc">PipingNetworkSystem</span></a>.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="sp:plant.piping.inlinemeasuringelement.insulationthickness">
+<h2>InsulationThickness<a class="headerlink" href="#sp:plant.piping.inlinemeasuringelement.insulationthickness" title="Link to this heading">¶</a></h2>
+<p class="rubric">Data Property</p>
+<p>The insulation thickness of the <a class="sp-element reference internal" href="#"><span class="doc">InlineMeasuringElement</span></a>.</p>
+<p><strong>Type:</strong><span> </span><a class="sp-element reference internal" href="../../Builtin/Undefined.html"><span class="doc">Undefined</span></a><span> | </span><span>&lt;</span><a class="sp-element reference internal" href="../../Core/PhysicalQuantities/PhysicalQuantity.html"><span class="doc">PhysicalQuantity</span></a><span> with </span><a class="sp-element reference internal" href="../../Core/PhysicalQuantities/PhysicalQuantity.html#sp:core.physicalquantities.physicalquantity.unittype"><span class="std std-ref">UnitType</span></a><span> → </span><a class="sp-element reference internal" href="../../Core/PhysicalQuantities/LengthUnit.html"><span class="doc">LengthUnit</span></a><span>&gt;</span></p>
+<p><strong>Multiplicity:</strong><span> </span><span>0..1</span></p>
+<p><strong>Ordered:</strong><span> </span><span>no</span></p>
+<p><strong>Unique:</strong><span> </span><span>no</span></p>
+<p><strong>RDL:</strong><span> </span><a class="reference external" href="http://data.posccaesar.org/rdl/RDS4238040">INSULATION THICKNESS (http://data.posccaesar.org/rdl/RDS4238040)</a></p>
+<section id="sp:plant.piping.inlinemeasuringelement.insulationthickness-example">
+<h3>Example<a class="headerlink" href="#sp:plant.piping.inlinemeasuringelement.insulationthickness-example" title="Link to this heading">¶</a></h3>
+<p class="sp-dense"><a class="sp-element reference internal" href="../../Core/PhysicalQuantities/PhysicalQuantity.html"><span class="doc">PhysicalQuantity</span></a><span>(</span></p>
+<p class="sp-dense"><span>     </span><a class="sp-element reference internal" href="../../Core/PhysicalQuantities/PhysicalQuantity.html#sp:core.physicalquantities.physicalquantity.unit"><span class="std std-ref">Unit</span></a><span> = </span><a class="sp-element reference internal" href="../../Core/PhysicalQuantities/LengthUnit.html#sp:core.physicalquantities.lengthunit.millimetre"><span class="std std-ref">Millimetre</span></a><span>,</span></p>
+<p class="sp-dense"><span>     </span><a class="sp-element reference internal" href="../../Core/PhysicalQuantities/PhysicalQuantity.html#sp:core.physicalquantities.physicalquantity.value"><span class="std std-ref">Value</span></a><span> = </span><code class="docutils literal notranslate"><span class="pre">40.0</span></code><span>)</span></p>
+</section>
+</section>
+<section id="sp:plant.piping.inlinemeasuringelement.insulationtype">
+<h2>InsulationType<a class="headerlink" href="#sp:plant.piping.inlinemeasuringelement.insulationtype" title="Link to this heading">¶</a></h2>
+<p class="rubric">Data Property</p>
+<p>The identification code for the insulation type related to the <a class="sp-element reference internal" href="#"><span class="doc">InlineMeasuringElement</span></a>. So far,
+DEXPI does not define restrictions for valid values.</p>
+<p><strong>Type:</strong><span> </span><a class="sp-element reference internal" href="../../Builtin/Undefined.html"><span class="doc">Undefined</span></a><span> | </span><a class="sp-element reference internal" href="../../Builtin/String.html"><span class="doc">String</span></a></p>
+<p><strong>Multiplicity:</strong><span> </span><span>0..1</span></p>
+<p><strong>Ordered:</strong><span> </span><span>no</span></p>
+<p><strong>Unique:</strong><span> </span><span>no</span></p>
+<p><strong>RDL:</strong><span> </span><a class="reference external" href="http://sandbox.dexpi.org/rdl/InsulationTypeAssignmentClass">INSULATION TYPE ASSIGNMENT CLASS (http://sandbox.dexpi.org/rdl/InsulationTypeAssignmentClass)</a></p>
+<section id="sp:plant.piping.inlinemeasuringelement.insulationtype-example">
+<h3>Example<a class="headerlink" href="#sp:plant.piping.inlinemeasuringelement.insulationtype-example" title="Link to this heading">¶</a></h3>
+<p class="sp-dense"><code class="docutils literal notranslate"><span class="pre">"Q"</span></code></p>
+</section>
+</section>
+<section id="sp:plant.piping.inlinemeasuringelement.pipingcomponentname">
+<h2>PipingComponentName<a class="headerlink" href="#sp:plant.piping.inlinemeasuringelement.pipingcomponentname" title="Link to this heading">¶</a></h2>
+<p class="rubric">Data Property</p>
+<p>A string to classify the <a class="sp-element reference internal" href="#"><span class="doc">InlineMeasuringElement</span></a>. DEXPI does not prescribe the
+classification system. Typically, company or site site standards are
+used.</p>
+<p><strong>Type:</strong><span> </span><a class="sp-element reference internal" href="../../Builtin/Undefined.html"><span class="doc">Undefined</span></a><span> | </span><a class="sp-element reference internal" href="../../Builtin/String.html"><span class="doc">String</span></a></p>
+<p><strong>Multiplicity:</strong><span> </span><span>0..1</span></p>
+<p><strong>Ordered:</strong><span> </span><span>no</span></p>
+<p><strong>Unique:</strong><span> </span><span>no</span></p>
+<p><strong>RDL:</strong><span> </span><a class="reference external" href="http://sandbox.dexpi.org/rdl/PipingComponentNameAssignmentClass">PIPING COMPONENT NAME ASSIGNMENT CLASS (http://sandbox.dexpi.org/rdl/PipingComponentNameAssignmentClass)</a></p>
+<section id="sp:plant.piping.inlinemeasuringelement.pipingcomponentname-example">
+<h3>Example<a class="headerlink" href="#sp:plant.piping.inlinemeasuringelement.pipingcomponentname-example" title="Link to this heading">¶</a></h3>
+<p class="sp-dense"><code class="docutils literal notranslate"><span class="pre">"73KH12"</span></code></p>
+</section>
+</section>
+<section id="sp:plant.piping.inlinemeasuringelement.pipingcomponentnumber">
+<h2>PipingComponentNumber<a class="headerlink" href="#sp:plant.piping.inlinemeasuringelement.pipingcomponentnumber" title="Link to this heading">¶</a></h2>
+<p class="rubric">Data Property</p>
+<p>An identifier of the <a class="sp-element reference internal" href="#"><span class="doc">InlineMeasuringElement</span></a>. DEXPI does not prescribe the scope of the
+identifier, i.e., whether it should be unique in, e.g., a
+<a class="sp-element reference internal" href="PipingNetworkSegment.html"><span class="doc">PipingNetworkSegment</span></a> or a
+<a class="sp-element reference internal" href="PipingNetworkSystem.html"><span class="doc">PipingNetworkSystem</span></a>.</p>
+<p><strong>Type:</strong><span> </span><a class="sp-element reference internal" href="../../Builtin/Undefined.html"><span class="doc">Undefined</span></a><span> | </span><a class="sp-element reference internal" href="../../Builtin/String.html"><span class="doc">String</span></a></p>
+<p><strong>Multiplicity:</strong><span> </span><span>0..1</span></p>
+<p><strong>Ordered:</strong><span> </span><span>no</span></p>
+<p><strong>Unique:</strong><span> </span><span>no</span></p>
+<p><strong>RDL:</strong><span> </span><a class="reference external" href="http://sandbox.dexpi.org/rdl/PipingComponentNumberAssignmentClass">PIPING COMPONENT NUMBER ASSIGNMENT CLASS (http://sandbox.dexpi.org/rdl/PipingComponentNumberAssignmentClass)</a></p>
+<section id="sp:plant.piping.inlinemeasuringelement.pipingcomponentnumber-example">
+<h3>Example<a class="headerlink" href="#sp:plant.piping.inlinemeasuringelement.pipingcomponentnumber-example" title="Link to this heading">¶</a></h3>
+<p class="sp-dense"><code class="docutils literal notranslate"><span class="pre">"C2"</span></code></p>
+</section>
+</section>
+<section id="Plant.Piping.InlineMeasuringElement-example">
+<h2>Example in DEXPI XML<a class="headerlink" href="#Plant.Piping.InlineMeasuringElement-example" title="Link to this heading">¶</a></h2>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;Object</span><span class="w"> </span><span class="na">type=</span><span class="s">"Plant/Piping.InlineMeasuringElement"</span><span class="nt">&gt;</span>
+<span class="w">  </span><span class="nt">&lt;Data</span><span class="w"> </span><span class="na">property=</span><span class="s">"InsulationThickness"</span><span class="nt">&gt;</span>
+<span class="w">    </span><span class="nt">&lt;AggregatedDataValue</span><span class="w"> </span><span class="na">type=</span><span class="s">"Core/PhysicalQuantities.PhysicalQuantity"</span><span class="nt">&gt;</span>
+<span class="w">      </span><span class="nt">&lt;Data</span><span class="w"> </span><span class="na">property=</span><span class="s">"Unit"</span><span class="nt">&gt;</span>
+<span class="w">        </span><span class="nt">&lt;DataReference</span><span class="w"> </span><span class="na">data=</span><span class="s">"Core/PhysicalQuantities.LengthUnit.Millimetre"</span><span class="nt">/&gt;</span>
+<span class="w">      </span><span class="nt">&lt;/Data&gt;</span>
+<span class="w">      </span><span class="nt">&lt;Data</span><span class="w"> </span><span class="na">property=</span><span class="s">"Value"</span><span class="nt">&gt;</span>
+<span class="w">        </span><span class="nt">&lt;Double&gt;</span>40.0<span class="nt">&lt;/Double&gt;</span>
+<span class="w">      </span><span class="nt">&lt;/Data&gt;</span>
+<span class="w">    </span><span class="nt">&lt;/AggregatedDataValue&gt;</span>
+<span class="w">  </span><span class="nt">&lt;/Data&gt;</span>
+<span class="w">  </span><span class="nt">&lt;Data</span><span class="w"> </span><span class="na">property=</span><span class="s">"InsulationType"</span><span class="nt">&gt;</span>
+<span class="w">    </span><span class="nt">&lt;String&gt;</span>Q<span class="nt">&lt;/String&gt;</span>
+<span class="w">  </span><span class="nt">&lt;/Data&gt;</span>
+<span class="w">  </span><span class="nt">&lt;Data</span><span class="w"> </span><span class="na">property=</span><span class="s">"PipingComponentName"</span><span class="nt">&gt;</span>
+<span class="w">    </span><span class="nt">&lt;String&gt;</span>73KH12<span class="nt">&lt;/String&gt;</span>
+<span class="w">  </span><span class="nt">&lt;/Data&gt;</span>
+<span class="w">  </span><span class="nt">&lt;Data</span><span class="w"> </span><span class="na">property=</span><span class="s">"PipingComponentNumber"</span><span class="nt">&gt;</span>
+<span class="w">    </span><span class="nt">&lt;String&gt;</span>C2<span class="nt">&lt;/String&gt;</span>
+<span class="w">  </span><span class="nt">&lt;/Data&gt;</span>
+<span class="nt">&lt;/Object&gt;</span>
+</pre></div>
+</div>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+    
+        <div id="show_right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&lt;</span><span>Page contents</span></a></p>
+        </div>
+
+        <div id="right_sidebar">
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&gt;</span><span>Page contents:</span></a></p>
+            <div class="page_toc">
+                <ul>
+<li><a class="reference internal" href="#">InlineMeasuringElement</a><ul>
+<li><a class="reference internal" href="#Overview">Overview</a></li>
+<li><a class="reference internal" href="#Members">Members</a><ul>
+<li><a class="reference internal" href="#member-list-section-Data%20Properties">Data Properties</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#sp:plant.piping.inlinemeasuringelement.insulationthickness">InsulationThickness</a><ul>
+<li><a class="reference internal" href="#sp:plant.piping.inlinemeasuringelement.insulationthickness-example">Example</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#sp:plant.piping.inlinemeasuringelement.insulationtype">InsulationType</a><ul>
+<li><a class="reference internal" href="#sp:plant.piping.inlinemeasuringelement.insulationtype-example">Example</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#sp:plant.piping.inlinemeasuringelement.pipingcomponentname">PipingComponentName</a><ul>
+<li><a class="reference internal" href="#sp:plant.piping.inlinemeasuringelement.pipingcomponentname-example">Example</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#sp:plant.piping.inlinemeasuringelement.pipingcomponentnumber">PipingComponentNumber</a><ul>
+<li><a class="reference internal" href="#sp:plant.piping.inlinemeasuringelement.pipingcomponentnumber-example">Example</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#Plant.Piping.InlineMeasuringElement-example">Example in DEXPI XML</a></li>
+</ul>
+</li>
+</ul>
+
+            </div>
+        </div>
+    
+
+      <div class="clearer"></div>
+    </div>
+    <div class="button_nav_wrapper">
+        <div class="button_nav">
+            <div class="left">
+                
+                <a href="InLineMixer.html">
+                    <span class="icon">&lt;</span><span>InLineMixer</span></a>
+                
+            </div>
+
+            <div class="right">
+                
+                    <a href="LineBlind.html"><span>LineBlind</span><span class="icon">&gt;</span></a>
+                
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer" role="contentinfo">
+    © Copyright .
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.1.3.
+    </div>
+
+<p id="theme_credit">Styled using the <a href="https://github.com/piccolo-orm/piccolo_theme">Piccolo Theme</a></p>
+  </body>
+</html>

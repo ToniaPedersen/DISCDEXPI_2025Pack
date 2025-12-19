@@ -1,0 +1,5 @@
+PV023B
+======
+
+.. sp:internal-autoelement::
+   :element: DiscProfile.SymbolCatalogue.PV023B

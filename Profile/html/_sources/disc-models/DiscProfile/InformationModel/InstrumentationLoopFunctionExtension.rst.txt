@@ -1,0 +1,5 @@
+InstrumentationLoopFunctionExtension
+====================================
+
+.. sp:internal-autoelement::
+   :element: DiscProfile.InformationModel.InstrumentationLoopFunctionExtension

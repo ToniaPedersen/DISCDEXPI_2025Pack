@@ -1,0 +1,5 @@
+IM005B
+======
+
+.. sp:internal-autoelement::
+   :element: DiscProfile.SymbolCatalogue.IM005B
