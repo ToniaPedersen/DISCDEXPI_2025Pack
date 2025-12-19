@@ -2,6 +2,11 @@
 
 This GitHub repository contains the document delivery for the **DISC DEXPI 2025 Project**.
 
+📌 **Profile HTML Link:** 
+[HTML Link](https://html-preview.github.io/?url=https://github.com/ToniaPedersen/DISCDEXPI_2025Pack/blob/main/Profile/html/index.html)
+
+---
+
 The repository contents are as follows:
 
 - **Main**: 
@@ -21,7 +26,3 @@ The repository contents are as follows:
 	- *UseCases_PersistenID.pptx*: Overview of Blueprint use case versions and versioning methodology
 	- *DISC_EXAMPLE-09*: Folder containing all Blueprint use case versions serialized using DEXPI 2.0
 
----,
-
-?? **Profile HTML Link:** 
-[HTML Link](https://html-preview.github.io/?url=https://github.com/ToniaPedersen/DISCDEXPI_2025Pack/blob/main/Profile/html/index.html)
