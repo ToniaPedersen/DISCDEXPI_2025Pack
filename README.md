@@ -11,7 +11,7 @@ The repository contents are as follows:
 
 - **Main**: 
 	- *DISC DEXPI Pilot Transfer Requirements.docx*: Information modelling requirements [[Link]](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FToniaPedersen%2FDISCDEXPI_2025Pack%2Frefs%2Fheads%2Fmain%2FDISC%2520DEXPI%2520Pilot%2520Transfer%2520Requirements.docx&wdOrigin=BROWSELINK)
-	- *DISC DEXPI Symbol Definition Requirements.docx*: Overview of the DISC DEXPI symbol defintion information modelling Requirements [[Link]](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FToniaPedersen%2FDISCDEXPI_2025Pack%2Frefs%2Fheads%2Fmain%2FDISC%2520DEXPI%2520Symbol%2520Definition%2520Requirements.docx&wdOrigin=BROWSELINK)
+	- *DISC DEXPI Symbol Definition Requirements.docx*: Overview of the DISC DEXPI symbol definition information modelling Requirements [[Link]](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FToniaPedersen%2FDISCDEXPI_2025Pack%2Frefs%2Fheads%2Fmain%2FDISC%2520DEXPI%2520Symbol%2520Definition%2520Requirements.docx&wdOrigin=BROWSELINK)
 	- *FinalReport_DEXPI.docx*: Final report for the DISC DEXPI 2025 Project [[Link]](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FToniaPedersen%2FDISCDEXPI_2025Pack%2Frefs%2Fheads%2Fmain%2FFinalReport_DEXPI.docx&wdOrigin=BROWSELINK)
 
 - **Profile**:
