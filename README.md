@@ -19,7 +19,7 @@ The repository contents are as follows:
 	- *XML*: Folder for XML version of the Profile
 
 - **PID Validation Method**:
-	- *PID Verification Method.docx*: Validation methodology for validation and scoring of DISC DEXPI files towards DEXPI and the DISC Profile [[Link]](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FToniaPedersen%2FDISCDEXPI_2025Pack%2Frefs%2Fheads%2Fmain%2FPID%2520Validation%2520Method%2FPID%2520Verification%2520Method.docx&wdOrigin=BROWSELINK)
+	- *PID Verification Method.docx*: Methodology for validation/verification and scoring of DISC DEXPI files towards DEXPI and the DISC Profile [[Link]](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FToniaPedersen%2FDISCDEXPI_2025Pack%2Frefs%2Fheads%2Fmain%2FPID%2520Validation%2520Method%2FPID%2520Verification%2520Method.docx&wdOrigin=BROWSELINK)
 	- *DEXPI DISC Verificator File Comparison.pptx*: Overview of File Comparision verification for DISC DEXPI files towards the provide Blueprint files
 
 - **Blueprint**:
