@@ -15,6 +15,7 @@ The repository contents are as follows:
 	- *FinalReport_DEXPI.docx*: Final report for the DISC DEXPI 2025 Project [[Link]](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FToniaPedersen%2FDISCDEXPI_2025Pack%2Frefs%2Fheads%2Fmain%2FFinalReport_DEXPI.docx&wdOrigin=BROWSELINK)
 
 - **Profile**:
+	- *HTML.zip* : Zip file for download of full HTML view of DISC DEXPI profile
 	- *HTML*: Folder for HTML version of the Profile
 	- *XML*: Folder for XML version of the Profile 
 		- *Builtin.xml* : Built in types
