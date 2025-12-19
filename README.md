@@ -10,6 +10,8 @@ The repository contents are as follows:
 	- *FinalReport_DEXPI.docx*: Final report for the DISC DEXPI 2025 Project
 
 - **Profile**:
+	- *HTML*: Folder for HTML version of the Profile
+	- *XML*: Folder for XML version of the Profile
 
 - **PID Validation Method**:
 	- *PID Validation Method.docx*: Validation methodology for validation and scoring of DISC DEXPI files towards DEXPI and the DISC Profile
@@ -18,3 +20,8 @@ The repository contents are as follows:
 - **Blueprint**:
 	- *UseCases_PersistenID.pptx*: Overview of Blueprint use case versions and versioning methodology
 	- *DISC_EXAMPLE-09*: Folder containing all Blueprint use case versions serialized using DEXPI 2.0
+
+---,
+
+?? **Profile HTML Link:** 
+[HTML Link](https://html-preview.github.io/?url=https://github.com/ToniaPedersen/DISCDEXPI_2025Pack/blob/main/Profile/html/index.html)
